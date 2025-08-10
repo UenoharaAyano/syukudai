@@ -6,7 +6,7 @@ int ans = 0;
 int main(void)
 {
     Queue* q = createQueue();
-    for(int i = 0; i<14; i++)
+    for(int i = 0; i<10; i++)
     {
         enqueue(q, i);
     }
