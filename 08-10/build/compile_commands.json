@@ -1,0 +1,20 @@
+[
+{
+  "directory": "D:/2026ROBOCON/syukudai/08-10/build",
+  "command": "D:\\mingw64\\bin\\gcc.exe  @CMakeFiles/114514.dir/includes_C.rsp -g -o CMakeFiles\\114514.dir\\src\\main.c.obj -c D:\\2026ROBOCON\\syukudai\\08-10\\src\\main.c",
+  "file": "D:/2026ROBOCON/syukudai/08-10/src/main.c",
+  "output": "CMakeFiles/114514.dir/src/main.c.obj"
+},
+{
+  "directory": "D:/2026ROBOCON/syukudai/08-10/build",
+  "command": "D:\\mingw64\\bin\\gcc.exe  @CMakeFiles/114514.dir/includes_C.rsp -g -o CMakeFiles\\114514.dir\\src\\queue.c.obj -c D:\\2026ROBOCON\\syukudai\\08-10\\src\\queue.c",
+  "file": "D:/2026ROBOCON/syukudai/08-10/src/queue.c",
+  "output": "CMakeFiles/114514.dir/src/queue.c.obj"
+},
+{
+  "directory": "D:/2026ROBOCON/syukudai/08-10/build",
+  "command": "D:\\mingw64\\bin\\gcc.exe  @CMakeFiles/114514.dir/includes_C.rsp -g -o CMakeFiles\\114514.dir\\src\\stack.c.obj -c D:\\2026ROBOCON\\syukudai\\08-10\\src\\stack.c",
+  "file": "D:/2026ROBOCON/syukudai/08-10/src/stack.c",
+  "output": "CMakeFiles/114514.dir/src/stack.c.obj"
+}
+]
