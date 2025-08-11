@@ -11,6 +11,7 @@
 typedef struct Queue {
     int front;                      //队头
     int rear;                       //队尾
+    int size;
     int data[QUEUE_MAX_SIZE];       //数据
 } Queue; 
 
