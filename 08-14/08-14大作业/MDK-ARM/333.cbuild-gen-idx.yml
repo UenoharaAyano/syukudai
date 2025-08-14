@@ -1,0 +1,13 @@
+build-gen-idx:
+  generated-by: uVision version 5.40.0.0
+  generators:
+    - board: ""
+      device: STM32F405RGTx
+      id: CubeMX
+      output: D:/STM32artifacts/333/MDK-ARM/STM32CubeMX/333/
+      project-type: single-core
+      cbuild-gens:
+        - cbuild-gen: D:/STM32artifacts/333/MDK-ARM/333.333.cbuild-gen.yml
+          configuration: .333
+          name: D:/STM32artifacts/333/MDK-ARM/STM32CubeMX/333/333.cgen.yml
+          project: 333

@@ -1,0 +1,20 @@
+#include "main.h"
+#include "usart.h"
+#include <string.h>
+
+uint8_t rx_Data_t = 0;
+uint8_t rx_Data[8] = {0};
+uint8_t t = 0;
+
+void HAL_UART_RxCpltCallback(UART_HandleTypeDef* huart){
+	if(huart->Instance == USART1){
+		rx_Data[t] = rx_Data_t;
+		t++;
+		if(t>=sizeof(rx_Data) || rx_Data_t == '\n') {
+			HAL_UART_Transmit_IT(&huart1 , rx_Data , t);
+			t = 0;
+			memset(rx_Data, 0, sizeof(rx_Data));
+		}
+		HAL_UART_Receive_IT(&huart1 , &rx_Data_t , sizeof(rx_Data_t));
+	}
+}
